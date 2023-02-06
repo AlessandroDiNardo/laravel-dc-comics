@@ -8,19 +8,19 @@
     <label for="firstName">First Name : </label>
     <input type="text"
         name="firstName"
-        value={{ $person -> firstName }}> <br> <br>
+        value=" $person -> firstName "> <br> <br>
     <label for="lastName">Last Name : </label>
     <input type="text"
         name="lastName"
-        value={{ $person -> lastName}}> <br> <br>
+        value=" $person -> lastName"> <br> <br>
     <label for="dateOfBirth">Date Of Birth : </label>
     <input type="date"
         name="dateOfBirth"
-        value={{ $person -> dateOfBirth}}> <br> <br>
+        value=" $person -> dateOfBirth"> <br> <br>
     <label for="height">Height In CM: </label>
     <input type="number"
         name="height"
-        value={{ $person -> height}}> <br> <br>
+        value=" $person -> height"> <br> <br>
     <input type="submit"
         value="EDIT">
 </form>
