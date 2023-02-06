@@ -10,9 +10,9 @@ class MainController extends Controller
     // home
     public function home()
     {
-        $persons = Person::all();
+        $people = Person::all();
 
-        return view("pages.home", compact("persons"));
+        return view("pages.home", compact("people"));
     }
 
     // show
