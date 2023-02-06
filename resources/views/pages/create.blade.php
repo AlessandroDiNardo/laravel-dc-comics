@@ -1,7 +1,7 @@
 @extends('layouts.main-layout')
 @section('content')
 <h1>CREATE A NEW PERSON</h1>
-@include('components.errors')
+@include('components.error')
 <form action="{{route('person.request')}}"
     method="POST">
     @csrf
