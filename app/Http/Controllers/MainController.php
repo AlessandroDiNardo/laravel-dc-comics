@@ -18,7 +18,7 @@ class MainController extends Controller
     // show
     public function showPerson(Person $person)
     {
-        return view("pages.show-person", compact("person"));
+        return view("pages.show", compact("person"));
     }
 
     // delete
@@ -31,7 +31,7 @@ class MainController extends Controller
     // create
     public function createPerson()
     {
-        return view("pages.create-person");
+        return view("pages.create");
     }
 
     // request
@@ -58,7 +58,7 @@ class MainController extends Controller
     // edit
     public function editPerson(Person $person)
     {
-        return view("pages.edit-person", compact("person"));
+        return view("pages.edit", compact("person"));
     }
 
     // update
